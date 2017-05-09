@@ -193,10 +193,9 @@ footer {
 }
 
 .Site {
-  	display: inline-flex;
+  	display: flex;
   	min-height: 100%;
   	flex-direction: column;
-  	width: 100%
 }
 
 .Site-content {
@@ -267,7 +266,6 @@ footer {
 	}
 
 	.headerBox {
-		height: 55px;
 		position: static;
 		width: 100%;
 	}
@@ -278,14 +276,14 @@ footer {
 	}
 
 	nav a {
-		padding-right: 70px;
-		padding-left: 70px;
+		padding-right: 65px;
+		padding-left: 65px;
 		width: 100%;
 	}
 
 	.content {
 		width: 600px;
-		margin-top: 75px;
+		margin-top: 0px;
 	}
 	
 	section {
@@ -302,10 +300,10 @@ footer {
 	.portBox {
    		height: 200px;
 		width: 540px;
-		margin:20px 0;
+		margin: 20px 0;
 	}
 
 	.Site-content {
- 		margin-bottom: 160px;
+ 		margin-bottom: 250px;
 	}
 }
